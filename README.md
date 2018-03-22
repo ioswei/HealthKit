@@ -9,8 +9,8 @@ in order to request write authorization.'</br>
 我们要在info.plist文件中声明苹果健康的使用权限，所以在info.plist中添加以下key就可以了。请求写入和请求读取都需要添加!</br>
 
 请求写入</br>
-  <key>NSHealthUpdateUsageDescription</key></br>
- <string>some string value stating the reason</string></br>
+ --<key>NSHealthUpdateUsageDescription</key></br>
+ --<string>some string value stating the reason</string></br>
 请求读取</br>
    <key>NSHealthShareUsageDescription</key></br>
    <string>some string value stating the reason</string></br>
