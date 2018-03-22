@@ -1,7 +1,7 @@
 # HealthKit
 iOS健康数据获取</br>
-##1.系统版本号要求8.0以上</br>
-###2.iOS 11配置文件需求</br>
+### 1.系统版本号要求8.0以上</br>
+### 2.iOS 11配置文件需求</br>
 Terminating app due to uncaught exception 'NSInvalidArgumentException',</br>
 reason: 'NSHealthUpdateUsageDescription must be set in the app's Info.plist</br>
 in order to request write authorization.'</br>
@@ -15,5 +15,6 @@ in order to request write authorization.'</br>
    <key>NSHealthShareUsageDescription</key></br>
    <string>some string value stating the reason</string></br>
    
-###3.开启HealthKit</br>
-![效果图](http://s15.sinaimg.cn/large/005R98Amzy7f32WU9HM9e&690)
+### 3.开启HealthKit</br>
+![效果图](https://github.com/ioswei/HealthKit/blob/master/ios健康获取/FC9D2855-4496-4788-A16F-F1120598A6B5.png)
+![效果图](https://github.com/ioswei/HealthKit/blob/master/ios健康获取/WX20180322-120022%402x.png)
