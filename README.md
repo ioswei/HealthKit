@@ -18,3 +18,5 @@ in order to request write authorization.'</br>
 ### 3.开启HealthKit</br>
 ![效果图](https://github.com/ioswei/HealthKit/blob/master/ios健康获取/FC9D2855-4496-4788-A16F-F1120598A6B5.png)
 ![效果图](https://github.com/ioswei/HealthKit/blob/master/ios健康获取/WX20180322-120022%402x.png)
+
+#### iOS交流群Q群:637387838
