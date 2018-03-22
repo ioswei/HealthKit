@@ -12,8 +12,8 @@ in order to request write authorization.'</br>
  key:NSHealthUpdateUsageDescription</br>
  string:some string value stating the reason</br>
 请求读取</br>
-   key:NSHealthShareUsageDescription</br>
-   string:some string value stating the reason</br>
+ key:NSHealthShareUsageDescription</br>
+ string:some string value stating the reason</br>
    
 ### 3.开启HealthKit</br>
 ![效果图](https://github.com/ioswei/HealthKit/blob/master/ios健康获取/FC9D2855-4496-4788-A16F-F1120598A6B5.png)
