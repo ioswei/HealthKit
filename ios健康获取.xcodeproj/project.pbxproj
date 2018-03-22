@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FEC15792063561D00F791A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEC15782063561D00F791A0 /* AppDelegate.m */; };
+		4FEC157C2063561D00F791A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEC157B2063561D00F791A0 /* ViewController.m */; };
+		4FEC157F2063561D00F791A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FEC157D2063561D00F791A0 /* Main.storyboard */; };
+		4FEC15812063561D00F791A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FEC15802063561D00F791A0 /* Assets.xcassets */; };
+		4FEC15842063561D00F791A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FEC15822063561D00F791A0 /* LaunchScreen.storyboard */; };
+		4FEC15872063561D00F791A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEC15862063561D00F791A0 /* main.m */; };
+		4FEC15912063561D00F791A0 /* ios____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEC15902063561D00F791A0 /* ios____Tests.m */; };
+		4FEC159C2063561D00F791A0 /* ios____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEC159B2063561D00F791A0 /* ios____UITests.m */; };
+		4FEC15AB2063567300F791A0 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FEC15AA2063567300F791A0 /* HealthKit.framework */; };
+		4FEC15B0206356AC00F791A0 /* AWHealthKitManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEC15AF206356AC00F791A0 /* AWHealthKitManage.m */; };
+		4FEC15B2206381E800F791A0 /* WX20180322-120022@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FEC15B1206381E800F791A0 /* WX20180322-120022@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FEC158D2063561D00F791A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FEC156C2063561D00F791A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FEC15732063561D00F791A0;
+			remoteInfo = "ios健康获取";
+		};
+		4FEC15982063561D00F791A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FEC156C2063561D00F791A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FEC15732063561D00F791A0;
+			remoteInfo = "ios健康获取";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4FEC15742063561D00F791A0 /* ios健康获取.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios健康获取.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FEC15772063561D00F791A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4FEC15782063561D00F791A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4FEC157A2063561D00F791A0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4FEC157B2063561D00F791A0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4FEC157E2063561D00F791A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FEC15802063561D00F791A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FEC15832063561D00F791A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4FEC15852063561D00F791A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FEC15862063561D00F791A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4FEC158C2063561D00F791A0 /* ios健康获取Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios健康获取Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FEC15902063561D00F791A0 /* ios____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ios____Tests.m"; sourceTree = "<group>"; };
+		4FEC15922063561D00F791A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FEC15972063561D00F791A0 /* ios健康获取UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios健康获取UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FEC159B2063561D00F791A0 /* ios____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ios____UITests.m"; sourceTree = "<group>"; };
+		4FEC159D2063561D00F791A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FEC15AA2063567300F791A0 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		4FEC15AC2063567300F791A0 /* ios健康获取.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "ios健康获取.entitlements"; sourceTree = "<group>"; };
+		4FEC15AE206356AC00F791A0 /* AWHealthKitManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWHealthKitManage.h; sourceTree = "<group>"; };
+		4FEC15AF206356AC00F791A0 /* AWHealthKitManage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWHealthKitManage.m; sourceTree = "<group>"; };
+		4FEC15B1206381E800F791A0 /* WX20180322-120022@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WX20180322-120022@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FEC15712063561D00F791A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FEC15AB2063567300F791A0 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FEC15892063561D00F791A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FEC15942063561D00F791A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FEC156B2063561D00F791A0 = {
+			isa = PBXGroup;
+			children = (
+				4FEC15762063561D00F791A0 /* ios健康获取 */,
+				4FEC158F2063561D00F791A0 /* ios健康获取Tests */,
+				4FEC159A2063561D00F791A0 /* ios健康获取UITests */,
+				4FEC15752063561D00F791A0 /* Products */,
+				4FEC15A92063567300F791A0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4FEC15752063561D00F791A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FEC15742063561D00F791A0 /* ios健康获取.app */,
+				4FEC158C2063561D00F791A0 /* ios健康获取Tests.xctest */,
+				4FEC15972063561D00F791A0 /* ios健康获取UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FEC15762063561D00F791A0 /* ios健康获取 */ = {
+			isa = PBXGroup;
+			children = (
+				4FEC15AD2063569100F791A0 /* 健康基类 */,
+				4FEC15AC2063567300F791A0 /* ios健康获取.entitlements */,
+				4FEC15772063561D00F791A0 /* AppDelegate.h */,
+				4FEC15782063561D00F791A0 /* AppDelegate.m */,
+				4FEC157A2063561D00F791A0 /* ViewController.h */,
+				4FEC157B2063561D00F791A0 /* ViewController.m */,
+				4FEC157D2063561D00F791A0 /* Main.storyboard */,
+				4FEC15802063561D00F791A0 /* Assets.xcassets */,
+				4FEC15822063561D00F791A0 /* LaunchScreen.storyboard */,
+				4FEC15852063561D00F791A0 /* Info.plist */,
+				4FEC15862063561D00F791A0 /* main.m */,
+				4FEC15B1206381E800F791A0 /* WX20180322-120022@2x.png */,
+			);
+			path = "ios健康获取";
+			sourceTree = "<group>";
+		};
+		4FEC158F2063561D00F791A0 /* ios健康获取Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4FEC15902063561D00F791A0 /* ios____Tests.m */,
+				4FEC15922063561D00F791A0 /* Info.plist */,
+			);
+			path = "ios健康获取Tests";
+			sourceTree = "<group>";
+		};
+		4FEC159A2063561D00F791A0 /* ios健康获取UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4FEC159B2063561D00F791A0 /* ios____UITests.m */,
+				4FEC159D2063561D00F791A0 /* Info.plist */,
+			);
+			path = "ios健康获取UITests";
+			sourceTree = "<group>";
+		};
+		4FEC15A92063567300F791A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FEC15AA2063567300F791A0 /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4FEC15AD2063569100F791A0 /* 健康基类 */ = {
+			isa = PBXGroup;
+			children = (
+				4FEC15AE206356AC00F791A0 /* AWHealthKitManage.h */,
+				4FEC15AF206356AC00F791A0 /* AWHealthKitManage.m */,
+			);
+			path = "健康基类";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FEC15732063561D00F791A0 /* ios健康获取 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FEC15A02063561D00F791A0 /* Build configuration list for PBXNativeTarget "ios健康获取" */;
+			buildPhases = (
+				4FEC15702063561D00F791A0 /* Sources */,
+				4FEC15712063561D00F791A0 /* Frameworks */,
+				4FEC15722063561D00F791A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios健康获取";
+			productName = "ios健康获取";
+			productReference = 4FEC15742063561D00F791A0 /* ios健康获取.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FEC158B2063561D00F791A0 /* ios健康获取Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FEC15A32063561D00F791A0 /* Build configuration list for PBXNativeTarget "ios健康获取Tests" */;
+			buildPhases = (
+				4FEC15882063561D00F791A0 /* Sources */,
+				4FEC15892063561D00F791A0 /* Frameworks */,
+				4FEC158A2063561D00F791A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FEC158E2063561D00F791A0 /* PBXTargetDependency */,
+			);
+			name = "ios健康获取Tests";
+			productName = "ios健康获取Tests";
+			productReference = 4FEC158C2063561D00F791A0 /* ios健康获取Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4FEC15962063561D00F791A0 /* ios健康获取UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FEC15A62063561D00F791A0 /* Build configuration list for PBXNativeTarget "ios健康获取UITests" */;
+			buildPhases = (
+				4FEC15932063561D00F791A0 /* Sources */,
+				4FEC15942063561D00F791A0 /* Frameworks */,
+				4FEC15952063561D00F791A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FEC15992063561D00F791A0 /* PBXTargetDependency */,
+			);
+			name = "ios健康获取UITests";
+			productName = "ios健康获取UITests";
+			productReference = 4FEC15972063561D00F791A0 /* ios健康获取UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FEC156C2063561D00F791A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "iOS_阿玮";
+				TargetAttributes = {
+					4FEC15732063561D00F791A0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+					4FEC158B2063561D00F791A0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4FEC15732063561D00F791A0;
+					};
+					4FEC15962063561D00F791A0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4FEC15732063561D00F791A0;
+					};
+				};
+			};
+			buildConfigurationList = 4FEC156F2063561D00F791A0 /* Build configuration list for PBXProject "ios健康获取" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FEC156B2063561D00F791A0;
+			productRefGroup = 4FEC15752063561D00F791A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FEC15732063561D00F791A0 /* ios健康获取 */,
+				4FEC158B2063561D00F791A0 /* ios健康获取Tests */,
+				4FEC15962063561D00F791A0 /* ios健康获取UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FEC15722063561D00F791A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FEC15842063561D00F791A0 /* LaunchScreen.storyboard in Resources */,
+				4FEC15812063561D00F791A0 /* Assets.xcassets in Resources */,
+				4FEC15B2206381E800F791A0 /* WX20180322-120022@2x.png in Resources */,
+				4FEC157F2063561D00F791A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FEC158A2063561D00F791A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FEC15952063561D00F791A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FEC15702063561D00F791A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FEC157C2063561D00F791A0 /* ViewController.m in Sources */,
+				4FEC15B0206356AC00F791A0 /* AWHealthKitManage.m in Sources */,
+				4FEC15872063561D00F791A0 /* main.m in Sources */,
+				4FEC15792063561D00F791A0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FEC15882063561D00F791A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FEC15912063561D00F791A0 /* ios____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FEC15932063561D00F791A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FEC159C2063561D00F791A0 /* ios____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FEC158E2063561D00F791A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FEC15732063561D00F791A0 /* ios健康获取 */;
+			targetProxy = 4FEC158D2063561D00F791A0 /* PBXContainerItemProxy */;
+		};
+		4FEC15992063561D00F791A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FEC15732063561D00F791A0 /* ios健康获取 */;
+			targetProxy = 4FEC15982063561D00F791A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4FEC157D2063561D00F791A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FEC157E2063561D00F791A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4FEC15822063561D00F791A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FEC15832063561D00F791A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FEC159E2063561D00F791A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4FEC159F2063561D00F791A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FEC15A12063561D00F791A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "ios健康获取/ios健康获取.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XPQJ236ZM;
+				INFOPLIST_FILE = "ios健康获取/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RuiMeng.ios----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FEC15A22063561D00F791A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "ios健康获取/ios健康获取.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XPQJ236ZM;
+				INFOPLIST_FILE = "ios健康获取/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RuiMeng.ios----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4FEC15A42063561D00F791A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XPQJ236ZM;
+				INFOPLIST_FILE = "ios健康获取Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RuiMeng.ios----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios健康获取.app/ios健康获取";
+			};
+			name = Debug;
+		};
+		4FEC15A52063561D00F791A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XPQJ236ZM;
+				INFOPLIST_FILE = "ios健康获取Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RuiMeng.ios----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios健康获取.app/ios健康获取";
+			};
+			name = Release;
+		};
+		4FEC15A72063561D00F791A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XPQJ236ZM;
+				INFOPLIST_FILE = "ios健康获取UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RuiMeng.ios----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ios健康获取";
+			};
+			name = Debug;
+		};
+		4FEC15A82063561D00F791A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XPQJ236ZM;
+				INFOPLIST_FILE = "ios健康获取UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RuiMeng.ios----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ios健康获取";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FEC156F2063561D00F791A0 /* Build configuration list for PBXProject "ios健康获取" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FEC159E2063561D00F791A0 /* Debug */,
+				4FEC159F2063561D00F791A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FEC15A02063561D00F791A0 /* Build configuration list for PBXNativeTarget "ios健康获取" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FEC15A12063561D00F791A0 /* Debug */,
+				4FEC15A22063561D00F791A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FEC15A32063561D00F791A0 /* Build configuration list for PBXNativeTarget "ios健康获取Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FEC15A42063561D00F791A0 /* Debug */,
+				4FEC15A52063561D00F791A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FEC15A62063561D00F791A0 /* Build configuration list for PBXNativeTarget "ios健康获取UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FEC15A72063561D00F791A0 /* Debug */,
+				4FEC15A82063561D00F791A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FEC156C2063561D00F791A0 /* Project object */;
+}
